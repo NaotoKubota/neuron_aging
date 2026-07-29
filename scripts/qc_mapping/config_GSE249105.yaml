@@ -1,0 +1,5 @@
+workdir: "/rhome/naotok/bigdata/neuron_aging/GEO_SRA/GSE249105"
+samples: ["SRR27007743", "SRR27007744", "SRR27007745", "SRR27007746", "SRR27007747", "SRR27007748", "SRR27007749", "SRR27007750", "SRR27007751", "SRR27007752", "SRR27007753", "SRR27007754", "SRR27007755", "SRR27007756", "SRR27007757", "SRR27007758", "SRR27007759", "SRR27007760", "SRR27007761", "SRR27007762", "SRR27130495", "SRR27130496", "SRR27130497", "SRR27130498", "SRR27130499"]
+star_index: "/rhome/naotok/bigdata/STAR/index_mm10_ensembl_v102"
+gtf: "/rhome/naotok/bigdata/genome_annotation/Mouse/Mus_musculus.GRCm38.102.gtf"
+layout: "paired"
