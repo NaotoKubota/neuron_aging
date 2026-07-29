@@ -1,0 +1,42 @@
+workdir:
+  /rhome/naotok/bigdata/neuron_aging/GEO_SRA/GSE233509/Shiba
+container:
+  docker://naotokubota/shiba:latest
+gtf:
+  /rhome/naotok/bigdata/genome_annotation/Mouse/Mus_musculus.GRCm38.102.gtf
+experiment_table:
+  /rhome/naotok/neuron_aging/scripts/splicing/experiment_Shiba_GSE233509.tsv
+unannotated:
+  True
+
+# Junction read filtering
+minimum_anchor_length:
+  6
+minimum_intron_length:
+  70
+maximum_intron_length:
+  500000
+strand:
+  XS
+
+# PSI calculation
+only_psi:
+  False
+only_psi_group:
+  False
+fdr:
+  0.05
+delta_psi:
+  0.1
+reference_group:
+  NA
+alternative_group:
+  NA
+minimum_reads:
+  10
+individual_psi:
+  True
+ttest:
+  True
+excel:
+  True
